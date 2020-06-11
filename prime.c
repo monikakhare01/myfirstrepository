@@ -1,10 +1,33 @@
 #include<stdio.h>
 #include<math.h>
+/*
+    This file initially contained a piece of code that checks is a number is prime or not
+
+    Added a function that checks if a number is even or odd as well
+*/
+char* getResultStringValue(int num)
+{
+    if(num==0)
+    {
+        return "its even";
+    }
+    else
+    {
+        /* code */
+        return "its odd";
+    }
+    
+}
+int EvenOrOdd(int num)
+{
+    return num%2;
+}
 int main()
 {
     int num,i;
     printf("Enter a number?\n");
     scanf("%d",&num);
+    printf("EvenOrOdd : %s\n",getResultStringValue(EvenOrOdd(num)));
     for(i=2;i<=sqrt(num);i++)
     {
         if (num%i==0)
