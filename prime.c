@@ -5,6 +5,7 @@
 
     Added a function that checks if a number is even or odd as well
 */
+/*THIS LINE IS ADDED*/
 char* getResultStringValue(int num)
 {
     if(num==0)
