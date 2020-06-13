@@ -1,10 +1,11 @@
 #include<stdio.h>
 #include<math.h>
 /*
-    This file initially contained a piece of code that checks is a number is prime or not
+    This file initially contained a piece of code that checks if a number is prime or not
 
     Added a function that checks if a number is even or odd as well
 */
+/*THIS LINE IS ADDED*/
 char* getResultStringValue(int num)
 {
     if(num==0)
